@@ -23,7 +23,7 @@ This is the Android logger for the ChasR GPS Tracking System. Its task is to gat
 
 ## Install
 
-Instead of compiling the source code yourself, you can install using different app stores:
+Instead of compiling the source code yourself, you can install the App using different app stores:
 
 <a href="https://play.google.com/store/apps/details?id=de.alertr.chasr" target="_blank">
   <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="80"/>
