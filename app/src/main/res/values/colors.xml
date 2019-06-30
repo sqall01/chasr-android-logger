@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * written by sqall
+ * Twitter: https://twitter.com/sqall01
+ * Blog: https://h4des.org
+ * Github: https://github.com/sqall01
+ * Github Repository: https://github.com/sqall01/chasr-android-logger
+ *
+ * original from https://github.com/bfabiszewski/ulogger-android by Bartek Fabiszewski
+ *
+ * This file is part of Chasr Android Logger.
+ * Licensed under GPL, either version 3, or any later.
+ * See <http://www.gnu.org/licenses/>
+  -->
+
+<resources>
+    <color name="colorGreen">#ff00ff00</color>
+    <color name="colorRed">#ffff0000</color>
+    <color name="colorYellow">#ffffe600</color>
+    <color name="colorPink">#fff48787</color>
+    <color name="colorBlue">#ff80cbc4</color>
+    <color name="colorWhite">#ffffffff</color>
+</resources>

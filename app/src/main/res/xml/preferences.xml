@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * written by sqall
+ * Twitter: https://twitter.com/sqall01
+ * Blog: https://h4des.org
+ * Github: https://github.com/sqall01
+ * Github Repository: https://github.com/sqall01/chasr-android-logger
+ *
+ * original from https://github.com/bfabiszewski/ulogger-android by Bartek Fabiszewski
+ *
+ * This file is part of Chasr Android Logger.
+ * Licensed under GPL, either version 3, or any later.
+ * See <http://www.gnu.org/licenses/>
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:chasr="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="prefGroupMandatory"
+        android:title="@string/pref_battery_note_title">
+    <Preference
+        android:key="prefBatterynote"
+        android:selectable="false"
+        android:persistent="false"
+        android:summary="@string/pref_battery_note_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefGroupMandatory"
+        android:title="@string/pref_group_mandatory">
+    <de.alertr.chasr.TrimmedEditTextPreference
+        android:key="prefUsername"
+        android:title="@string/pref_username_title"
+        android:summary="@string/pref_username_summary"
+        android:inputType="textVisiblePassword|textNoSuggestions" />
+    <EditTextPreference
+        android:key="prefPass"
+        android:title="@string/pref_pass_title"
+        android:summary="@string/pref_pass_summary"
+        android:inputType="textPassword" />
+    <EditTextPreference
+        android:key="prefSecret"
+        android:title="@string/pref_secret_title"
+        android:summary="@string/pref_secret_summary"
+        android:inputType="textPassword" />
+    <EditTextPreference
+        android:key="prefDevicename"
+        android:title="@string/pref_devicename_title"
+        android:summary="@string/pref_devicename_summary"
+        android:inputType="textVisiblePassword|textNoSuggestions" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="prefGroupOptional"
+        android:title="@string/pref_group_optional">
+    <de.alertr.chasr.UrlEditTextPreference
+        android:key="prefHost"
+        android:title="@string/pref_host_title"
+        android:summary="@string/pref_host_summary"
+        android:inputType="textUri"
+        android:defaultValue="https://alertr.de/chasr" />
+    <de.alertr.chasr.ListPreferenceWithEditText
+        android:key="prefMinTime"
+        android:title="@string/pref_mintime_title"
+        android:summary="@string/pref_mintime_summary"
+        android:entries="@array/minTimeEntries"
+        android:entryValues="@array/minTimeValues"
+        android:defaultValue="@string/pref_mintime_default"
+        chasr:otherSummary="@string/pref_mintime_other" />
+    <de.alertr.chasr.ListPreferenceWithEditText
+        android:key="prefMinDistance"
+        android:title="@string/pref_mindistance_title"
+        android:summary="@string/pref_mindistance_summary"
+        android:entries="@array/minDistanceEntries"
+        android:entryValues="@array/minDistanceValues"
+        android:defaultValue="@string/pref_mindistance_default"
+        chasr:otherSummary="@string/pref_mindistance_other" />
+    <de.alertr.chasr.ListPreferenceWithEditText
+        android:key="prefMinAccuracy"
+        android:title="@string/pref_minaccuracy_title"
+        android:summary="@string/pref_minaccuracy_summary"
+        android:entries="@array/minAccuracyEntries"
+        android:entryValues="@array/minAccuracyValues"
+        android:defaultValue="@string/pref_minaccuracy_default"
+        chasr:otherSummary="@string/pref_minaccuracy_other" />
+    <CheckBoxPreference
+        android:key="prefAutoStart"
+        android:title="@string/pref_autostart_title"
+        android:summary="@string/pref_autostart_summary"
+        android:defaultValue="@string/pref_autostart_default" />
+    <de.alertr.chasr.ProviderPreference
+        android:key="prefProvider"
+        android:title="@string/pref_provider_title"
+        android:summary="@string/pref_provider_summary"
+        android:entries="@array/providersEntries"
+        android:entryValues="@array/providersValues" />
+    </PreferenceCategory>
+</PreferenceScreen>

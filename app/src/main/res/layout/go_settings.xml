@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * written by sqall
+ * Twitter: https://twitter.com/sqall01
+ * Blog: https://h4des.org
+ * Github: https://github.com/sqall01
+ * Github Repository: https://github.com/sqall01/chasr-android-logger
+ *
+ * original from https://github.com/bfabiszewski/ulogger-android by Bartek Fabiszewski
+ *
+ * This file is part of Chasr Android Logger.
+ * Licensed under GPL, either version 3, or any later.
+ * See <http://www.gnu.org/licenses/>
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dip">
+
+    <TextView
+        android:id="@+id/go_settings_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_settings_description"
+        android:textSize="16sp"
+        android:textIsSelectable="true"
+        android:autoLink="web" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:paddingTop="30dip"
+        style="?android:attr/buttonBarStyle" >
+
+        <Button
+            android:id="@+id/go_settings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/go_settings"
+            style="?android:attr/buttonBarButtonStyle" />
+
+    </LinearLayout>
+</LinearLayout>

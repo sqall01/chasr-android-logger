@@ -1,0 +1,120 @@
+<!--
+ * written by sqall
+ * Twitter: https://twitter.com/sqall01
+ * Blog: https://h4des.org
+ * Github: https://github.com/sqall01
+ * Github Repository: https://github.com/sqall01/chasr-android-logger
+ *
+ * original from https://github.com/bfabiszewski/ulogger-android by Bartek Fabiszewski
+ *
+ * This file is part of Chasr Android Logger.
+ * Licensed under GPL, either version 3, or any later.
+ * See <http://www.gnu.org/licenses/>
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">ChasR Logger</string>
+    <string name="app_name_ascii" translatable="false">ChasR Logger</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_newtrack">New track</string>
+    <string name="button_upload">Upload</string>
+    <string name="is_running" comment="substituted app_name">%s is running</string>
+    <string name="label_device">Device</string>
+    <string name="label_name">Name</string>
+    <string name="label_last_update">Last update: %s</string>
+    <string name="label_last_sync">Last upload: %s</string>
+    <string name="label_last_coordinates">Coordinates: %s</string>
+    <string name="label_synchronized">Synchronized</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="ok">OK</string>
+    <string name="settings">Settings</string>
+    <string name="pref_group_mandatory">Mandatory Settings</string>
+    <string name="pref_group_optional">Optional Settings</string>
+    <string name="pref_battery_note_title">Important Battery Note</string>
+    <string name="pref_battery_note_summary">Please deactivate all battery optimization or power saving settings of your Android system for this app. Since these settings shutdown services after a while, GPS logging may be terminated.</string>
+    <string name="pref_username_title">Username</string>
+    <string name="pref_username_summary">User login on ChasR server</string>
+    <string name="pref_pass_title">Password</string>
+    <string name="pref_pass_summary">User password on ChasR server</string>
+    <string name="pref_secret_title">Secret</string>
+    <string name="pref_secret_summary">Secret used to encrypt the GPS data</string>
+    <string name="pref_devicename_title">Device name</string>
+    <string name="pref_devicename_summary">Name of this device</string>
+    <string name="pref_host_title">ChasR Server</string>
+    <string name="pref_host_summary">ChasR Server URL (change only if you host the server yourself)</string>
+    <string name="pref_mintime_title">Minimum time</string>
+    <string name="pref_mintime_summary">Minimum time between location updates</string>
+    <string name="pref_mintime_default" translatable="false">10</string>
+    <string name="pref_mindistance_title">Minimum distance</string>
+    <string name="pref_mindistance_summary">Minimum distance between location updates</string>
+    <string name="pref_mindistance_default" translatable="false">50</string>
+    <string name="pref_minaccuracy_title">Minimum accuracy</string>
+    <string name="pref_minaccuracy_summary">Minimum accuracy of position</string>
+    <string name="pref_minaccuracy_default" translatable="false">50</string>
+    <string name="pref_autostart_title">Auto start</string>
+    <string name="pref_autostart_summary">Application will start on system boot</string>
+    <string name="pref_autostart_default" translatable="false">true</string>
+    <string name="pref_provider_title">Location provider</string>
+    <string name="pref_provider_summary">Location may be supplied by gps provider, by network or by both. Both providers will give best results, but use more battery.</string>
+    <string name="label_status">Status</string>
+    <string name="label_location">Location</string>
+    <string name="label_synchronization">Synchronization</string>
+    <string name="dash" translatable="false">-</string>
+    <string name="tracking_stopped">Tracking stopped</string>
+    <string name="tracking_started">Tracking started</string>
+    <string name="uploading_started">Uploading started</string>
+    <string name="nothing_to_synchronize">Nothing to synchronize</string>
+    <string name="no_positions">Current track has no positions</string>
+    <string name="warning">Warning</string>
+    <string name="about">About</string>
+    <string name="about_description">Simple end-to-end encrypted location logger for the ChasR logging system.</string>
+    <string name="about_description2">For more information and help please see the Github page https://github.com/sqall01/chasr-android-logger or visit https://alertr.de/chasr</string>
+    <string name="about_version">Version %s</string>
+    <string name="about_license">License: GPL</string>
+    <string name="about_credits" translatable="false">2019 © Andre Pawlowski</string>
+    <string name="go_settings_description">You have to configure the tracking app before it can be used. For this you need a ChasR account which can be freely registered at https://alertr.de/chasr</string>
+    <string name="go_settings">Go to Settings</string>
+    <string name="uploading_failed">Uploading failed:</string>
+    <string name="uploading_done">Uploading done</string>
+    <string name="provide_valid_url">Please provide valid server url</string>
+    <string name="provide_chasr_settings">Please provide user, password, secret, device name</string>
+    <string name="e_illegal_redirect">Illegal redirect: %d</string>
+    <string name="e_auth_failure">Authorization failure: %d</string>
+    <string name="e_http_code">HTTP error code: %d</string>
+    <string name="e_server_response">Server response error</string>
+    <string name="e_unknown_host">Unknown host: %s</string>
+    <string name="e_bad_url">Bad URL: %s</string>
+    <string name="e_connect">Connection error: %s</string>
+    <string name="e_username">Username not configured.</string>
+    <string name="e_password">Password not configured.</string>
+    <string name="e_secret">Secret not configured.</string>
+    <string name="e_devicename">Device name not configured.</string>
+    <string name="e_key">Generating encryption key failed.</string>
+    <string name="e_encryption">Encrypting data failed.</string>
+    <string name="e_signing">Signing data failed.</string>
+    <string name="e_database_error">Database error on server. Retry later.</string>
+    <string name="e_auth_error">Authentication error. Are username and password correct?</string>
+    <string name="e_illegal_msg_error">Illegal message format. Please contact support if error remains.</string>
+    <string name="e_session_expired">Session expired. Please retry.</string>
+    <string name="e_acl_error">Request not allowed. Do you have empty device slots left on the server?</string>
+    <string name="e_unknown">Unknown error. Are you using the newest version of the app?</string>
+    <string name="e_unknown_server">Unknown server response. Try again later.</string>
+    <string name="gps_disabled_warning">Warning: gps provider is disabled</string>
+    <string name="net_disabled_warning">Warning: network provider is disabled</string>
+    <string name="location_disabled">You must enable the location provider before the tracking can be started</string>
+    <string name="location_permission_denied">You must accept permission for location updates</string>
+    <string name="write_permission_denied">You must accept permission for writing to external storage</string>
+    <string name="using_network">Using network provider</string>
+    <string name="using_gps">Using gps provider</string>
+    <plurals name="label_positions_behind">
+        <item quantity="one">%d position behind</item>
+        <item quantity="few">%d positions behind</item>
+        <item quantity="many">%d positions behind</item>
+        <item quantity="other">%d positions behind</item>
+    </plurals>
+    <string name="pref_mintime_other">Minimum time interval in seconds</string>
+    <string name="pref_mindistance_other">Minimum distance in meters</string>
+    <string name="pref_minaccuracy_other">Minimum accuracy in meters</string>
+</resources>

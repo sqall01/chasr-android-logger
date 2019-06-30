@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--
+     * written by sqall
+     * Twitter: https://twitter.com/sqall01
+     * Blog: https://h4des.org
+     * Github: https://github.com/sqall01
+     * Github Repository: https://github.com/sqall01/chasr-android-logger
+     *
+     * original from https://github.com/bfabiszewski/ulogger-android by Bartek Fabiszewski
+     *
+     * This file is part of Chasr Android Logger.
+     * Licensed under GPL, either version 3, or any later.
+     * See <http://www.gnu.org/licenses/>
+      -->
+
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_newtrack">Neuer Track</string>
+    <string name="button_upload">Upload</string>
+    <string name="is_running">%s läuft</string>
+    <string name="label_device">Gerät</string>
+    <string name="label_name">Name</string>
+    <string name="label_last_update">Letztes Update: %s</string>
+    <string name="label_synchronized">Synchronisiert</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="submit">Erstellen</string>
+    <string name="ok">Ok</string>
+    <string name="settings">Einstellungen</string>
+    <string name="pref_username_title">Benutzername</string>
+    <string name="pref_username_summary">Server-Benutzername für ChasR Server</string>
+    <string name="pref_pass_title">Passwort</string>
+    <string name="pref_pass_summary">Server-Passwort für ChasR Server</string>
+    <string name="pref_host_title">ChasR Server</string>
+    <string name="pref_host_summary">ChasR Server URL (nur ändern wenn Sie den Server selber betreiben)</string>
+    <string name="pref_mintime_title">Mindester Zeitabstand</string>
+    <string name="pref_mintime_summary">Mindeste Zeit zwischen Positionen</string>
+    <string name="pref_mindistance_title">Mindeste Entfernung</string>
+    <string name="pref_mindistance_summary">Mindeste Entfernung zwischen Positionen</string>
+    <string name="pref_minaccuracy_title">Mindeste Genauigkeit</string>
+    <string name="pref_minaccuracy_summary">Mindeste Genauigkeit zwischen Positionen</string>
+    <string name="pref_autostart_title">Autostart</string>
+    <string name="pref_autostart_summary">Applikation beim Booten starten</string>
+    <string name="pref_provider_title">Positionsquelle</string>
+    <string name="pref_provider_summary">Position kann vom GPS, vom Netzwerk, oder von beiden ermittelt werden. Die Verwendung beider Positionsquellen liefert die besten Ergebnisse, aber benötigt mehr Batterie.</string>
+    <string name="label_status">Status</string>
+    <string name="label_location">Position</string>
+    <string name="label_synchronization">Synchronisation</string>
+    <string name="tracking_stopped">Tracking angehalten</string>
+    <string name="tracking_started">Tracking gestartet</string>
+    <string name="uploading_started">Upload gestartet</string>
+    <string name="nothing_to_synchronize">Keine Daten zum Synchronisieren</string>
+    <string name="no_positions">Aktueller Track hat keine Positionen</string>
+    <string name="warning">Achtung</string>
+    <string name="about">About</string>
+    <string name="about_description">Einfacher ende-zu-ende verschlüsselter Positionslogger für das ChasR Logging System.</string>
+    <string name="about_description2">Mehr Information und Hilfe gibt es auf der Github Seite https://github.com/sqall01/chasr-android-logger oder auf https://alertr.de/chasr</string>
+    <string name="about_version">Version %s</string>
+    <string name="uploading_failed">Upload fehlgeschlagen:</string>
+    <string name="uploading_done">Upload erfolgreich</string>
+    <string name="provide_valid_url">Bitte gültige Server-URL angeben</string>
+    <string name="provide_chasr_settings">Bitte Benutzername, Passwort, Geheimnis und Gerätenamen eingeben</string>
+    <string name="e_illegal_redirect">Ungültige Weiterleitung: %d</string>
+    <string name="e_auth_failure">Anmeldefehler: %d</string>
+    <string name="e_http_code">HTTP-Fehlercode: %d</string>
+    <string name="e_server_response">Serverantwortfehler</string>
+    <string name="e_unknown_host">Hostname unbekannt: %s</string>
+    <string name="e_bad_url">URL fehlerhaft: %s</string>
+    <string name="e_connect">Verbindungsfehler: %s</string>
+    <string name="gps_disabled_warning">Achtung: GPS-Provider deaktiviert</string>
+    <string name="net_disabled_warning">Achtung: Netzwerk-Provider deaktiviert</string>
+    <string name="location_disabled">Die Standortdienste müssen aktiviert werden bevor das tracking gestartet werden kann</string>
+    <string name="location_permission_denied">Die Berechtigung für Positionsupdates muss akzeptiert werden</string>
+    <string name="write_permission_denied">Die Berechtigung fürs Schreiben auf den externen Speicher muss akzeptiert werden</string>
+    <string name="using_network">Verwende Netzwerk-Provider als Positionsquelle</string>
+    <string name="using_gps">Verwende GPS als Positionsquelle</string>
+    <string name="pref_mintime_other">Mindester Zeitabstand in Sekunden</string>
+    <string name="pref_mindistance_other">Mindestentfernung in Metern</string>
+    <string name="pref_minaccuracy_other">Mindestgenauigkeit in Metern</string>
+    <plurals name="label_positions_behind">
+        <item quantity="one">%d Position Rückstand</item>
+        <item quantity="other">%d Positionen Rückstand</item>
+    </plurals>
+    <string name="label_last_coordinates">Koordinaten: %s</string>
+    <string name="pref_secret_title">Geheimnis</string>
+    <string name="pref_secret_summary">Geheimnis welches benutzt wird um die GPS Daten zu verschlüsseln</string>
+    <string name="pref_devicename_title">Gerätename</string>
+    <string name="pref_devicename_summary">Name dieses Gerätes</string>
+    <string name="about_license">Lizenz: GPL</string>
+    <string name="e_username">Benutzername nicht konfiguriert.</string>
+    <string name="e_password">Passwort nicht konfiguriert.</string>
+    <string name="e_secret">Geheimnis nicht konfiguriert.</string>
+    <string name="e_devicename">Gerätename nicht konfiguriert.</string>
+    <string name="e_key">Generierung des Verschlüsselungsschlüssels fehlgeschlagen.</string>
+    <string name="e_encryption">Verschlüsseln der Daten fehlgeschlagen.</string>
+    <string name="e_database_error">Datenbankfehler auf dem Server. Bitte später erneut versuchen.</string>
+    <string name="e_auth_error">Authentifizierung fehlgeschlagen. Sind Benutzername und Passwort korrekt?</string>
+    <string name="e_illegal_msg_error">Falsches Nachrichtenformat. Bitte den Support kontaktieren wenn dieser Fehler bleibt.</string>
+    <string name="e_session_expired">Sitzung abgelaufen. Bitte erneut versuchen.</string>
+    <string name="e_unknown">Unbekannter Fehler. Nutzen Sie die neuste Version dieser App?</string>
+    <string name="pref_battery_note_title">Wichtiger Akku Hinweis</string>
+    <string name="pref_battery_note_summary">Bitte deaktiviere jegliche Akku-Optimierung- oder Stromsparoptionen vom Android System für diese App. Da diese Optionen Dienste nach einer weile schließen, könnte das GPS logging dann beendet werden.</string>
+    <string name="label_last_sync">Letzter Upload: %s</string>
+    <string name="pref_group_optional">Optionale Einstellungen</string>
+    <string name="pref_group_mandatory">Erforderliche Einstellungen</string>
+    <string name="go_settings">Zu den Einstellungen</string>
+    <string name="go_settings_description">Sie müssen die tracking App konfigurieren bevor sie benutzt werden kann. Dafür benötigen Sie ein ChasR Konto welches Sie kostenlos unter https://alertr.de/chasr registrieren können.</string>
+    <string name="e_unknown_server">Unbekannte Antwort vom Server. Bitte später noch einmal versuchen.</string>
+    <string name="e_acl_error">Anfrage nicht erlaubt. Sind noch Plätze für weitere Geräte auf dem Server frei?</string>
+    <string name="e_signing">Signieren der Daten fehlgeschlagen.</string>
+</resources>
