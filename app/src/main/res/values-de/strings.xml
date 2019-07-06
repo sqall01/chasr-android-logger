@@ -86,7 +86,6 @@
     <string name="pref_secret_summary">Geheimnis welches benutzt wird um die GPS Daten zu verschlüsseln</string>
     <string name="pref_devicename_title">Gerätename</string>
     <string name="pref_devicename_summary">Name dieses Gerätes</string>
-    <string name="about_license">Lizenz: GPL</string>
     <string name="e_username">Benutzername nicht konfiguriert.</string>
     <string name="e_password">Passwort nicht konfiguriert.</string>
     <string name="e_secret">Geheimnis nicht konfiguriert.</string>
@@ -108,4 +107,5 @@
     <string name="e_unknown_server">Unbekannte Antwort vom Server. Bitte später noch einmal versuchen.</string>
     <string name="e_acl_error">Anfrage nicht erlaubt. Sind noch Plätze für weitere Geräte auf dem Server frei?</string>
     <string name="e_signing">Signieren der Daten fehlgeschlagen.</string>
+    <string name="about_privacy">Datenschutzerklärung: https://alertr.de/legal.php</string>
 </resources>

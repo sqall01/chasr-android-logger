@@ -72,7 +72,7 @@
     <string name="about_description">Simple end-to-end encrypted location logger for the ChasR logging system.</string>
     <string name="about_description2">For more information and help please see the Github page https://github.com/sqall01/chasr-android-logger or visit https://alertr.de/chasr</string>
     <string name="about_version">Version %s</string>
-    <string name="about_license">License: GPL</string>
+    <string name="about_privacy">Privacy Policy: https://alertr.de/legal.php</string>
     <string name="about_credits" translatable="false">2019 © Andre Pawlowski</string>
     <string name="go_settings_description">You have to configure the tracking app before it can be used. For this you need a ChasR account which can be freely registered at https://alertr.de/chasr</string>
     <string name="go_settings">Go to Settings</string>
